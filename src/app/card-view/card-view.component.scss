@@ -1,0 +1,39 @@
+.card-wrapper {
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid black;
+    border-radius:15px;
+    background-color: purple;
+    width:500px;
+    height: 350px;
+    font-size: 8px;
+    display: flex;
+    border: 5px solid black
+}
+
+.portrait {
+    width: 50%;
+    border: 1px black solid;
+    background-image: url("../../assets/background.jpg");
+    .image-crop {
+        border-radius: 50%;
+        border: 1px solid red;
+    }
+    img{
+        width: 100%;
+        position: relative;
+        bottom: 0;
+    }
+    
+}
+
+.description {
+    width: 50%;
+    border: 1px black solid;
+}

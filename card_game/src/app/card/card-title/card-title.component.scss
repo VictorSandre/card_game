@@ -1,0 +1,35 @@
+
+.container {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  margin: 2%;
+  margin-top: 0px;
+  text-align: center;
+  width: 100%;
+
+  img {
+    grid-row-start: 1;
+    grid-row-end: -1;
+    grid-column-start: 1;
+    grid-column-end: -1;
+  }
+
+  .title-container {
+    margin: 0;
+    grid-row-start: 1;
+    grid-row-end: -1;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    width: 50%;
+    height: 90%;
+    word-break: normal;
+
+    h1 {
+      font-size: 1em;
+    }
+
+  }
+}
+
